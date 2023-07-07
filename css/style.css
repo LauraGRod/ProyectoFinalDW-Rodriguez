@@ -1,0 +1,189 @@
+/*FUENTES para BODY y H1*/
+
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Gayathri:wght@100;400;700&display=swap');
+
+/*RESET*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+
+body{
+    font-family: 'Gayathri', sans-serif;
+    font-weight: 400;
+    background-color: #E3DAD5;
+}
+
+/*H1*/
+
+.navbar section a h1 {
+    font-family: 'Federo', sans-serif;
+    font-size: 3.125rem;
+    text-decoration: none;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: #E3DAD5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 1.25rem;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2.1875rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: black;
+}
+
+.top-header{
+    background-color: #E8E8E8;
+    text-align: center;
+    padding-top: .3125rem;
+}
+
+.sitio-actual{
+    text-decoration: underline;
+}
+
+/*PORTADA FOTO*/
+
+.foto-portada{
+    width: 100%;
+}
+
+/*TRES FOTOS JUNTAS*/
+
+.tres-fotos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 3.125rem;
+    width: 100%;
+}
+
+section div h2{
+    font-size: 2.1875rem;
+}
+
+.fotoback-tapados {
+    background-image: url(../assets/img/tapados-foto-desktop.png);
+    background-repeat: no-repeat;
+    padding: 11.875rem;
+    background-clip: padding-box;
+}
+
+.fotoback-jeans {
+    background-image: url(../assets/img/jeans-foto-desktop.png);
+    background-repeat: no-repeat;
+    padding: 11.875rem;
+    background-clip: padding-box;
+}
+
+.fotoback-sweaters {
+    background-image: url(../assets/img/sweaters-foto-desktop.png);
+    background-repeat: no-repeat;
+    padding: 11.875rem;
+    background-clip: padding-box;
+}
+
+/*CARROUSEL*/
+
+.carrousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    row-gap: 2.5rem;
+}
+
+.carrousel-cards {
+    border-radius: 5%;
+}
+
+/*INFO COMPRA*/
+
+.info-compra {
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15.625rem;
+    margin: 1.25rem 0rem;
+    padding: 1.5625rem 0rem;
+}
+
+.info-compra div{
+    justify-content: center;
+    align-items: center;
+}
+
+.info-compra p{
+    justify-content: center;
+    text-align: center;
+    font-size: 1.375rem;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #E8E8E8;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.125rem;
+}
+
+.preguntas-footer{
+    gap: 3.125rem;
+}
+
+.preguntas-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer div h4{
+    font-size: 1.25rem;
+}
+
+footer div ul{
+    list-style: none;
+}
+
+.footer-1{
+    display: flex;
+    gap: 3.125rem;
+}
+
+/*TIENDA*/
+
+.imgs-tienda{
+    border-radius: 5%;
+}
+
+/*NOSOTROS*/
+
+.main-nosotros{
+    background-image: url("../assets/img/bodyimg-nosotros.jpg");
+    background-repeat: no-repeat;
+}
