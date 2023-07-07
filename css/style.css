@@ -86,24 +86,30 @@ section div h2{
 }
 
 .fotoback-tapados {
-    background-image: url(../assets/img/tapados-foto-desktop.png);
+    grid-area: tapados;
+    background-image: url(../assets/img/tapados-foto-completa.webp);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 11.875rem;
-    background-clip: padding-box;
 }
 
 .fotoback-jeans {
-    background-image: url(../assets/img/jeans-foto-desktop.png);
+    grid-area: jeans;
+    background-image: url(../assets/img/jeans-foto-completa.webp);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 11.875rem;
-    background-clip: padding-box;
 }
 
 .fotoback-sweaters {
-    background-image: url(../assets/img/sweaters-foto-desktop.png);
+    grid-area: sweaters;
+    background-image: url(../assets/img/sweaters-foto-completa.webp);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 11.875rem;
-    background-clip: padding-box;
 }
 
 /*CARROUSEL*/
