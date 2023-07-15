@@ -6,7 +6,7 @@
         <title>Contacto</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
-    <body>
+    <body class="body-contacto">
 
         <!-- Empieza el HEADER -->
         <header>
@@ -30,18 +30,18 @@
         </header>
 
         <!--Empieza el MAIN-->
-        <main>
+        <main class="contacto-main">
             <div>
                 <h2>¡Contactanos!</h2>
             </div>
             <div>
-                <fieldset>
+                <fieldset class="contacto-fieldset">
                     <form action="#">
-                        <label for="nombre">Nombre</label> <input type="text">
-                        <label for="apellido">Apellido</label> <input type="text">
-                        <label for="email">Email</label> <input type="text">
-                        <label for="num-pedido">Número de pedido</label> <input type="text">
-                        <label for="mensaje">Mensaje</label> <input type="text">
+                        <label for="nombre">Nombre</label> <input class="celda-nombre" type="text">
+                        <label for="apellido">Apellido</label> <input class="celda-apellido" type="text">
+                        <label for="email">Email</label> <input class="celda-email" type="text">
+                        <label for="num-pedido">Número de pedido</label> <input class="celda-pedido" type="text">
+                        <label for="mensaje">Mensaje</label> <input class="celda-mensaje" type="text">
                     </form>
                 </fieldset>
             </div>
@@ -49,22 +49,29 @@
 
         <!-- Empieza el FOOTER -->
         <footer>
-        <div>
-            <h4>Preguntas Frecuentes</h4>
-            <ul>
-                <li class="preguntas-footer"> <a href="">Métodos de pago</a> </li>
-                    <li class="preguntas-footer"> <a href="">Cambios</a> </li>
-                    <li class="preguntas-footer"> <a href="">Contacto</a> </li>
-                    <li class="preguntas-footer"> <a href="">Devoluciones</a> </li>
-                    <li class="preguntas-footer"> <a href="">Venta mayorista</a> </li>
-                    <li class="preguntas-footer"> <a href="">Tabla de talles</a> </li>
-            </ul>
-        </div>
-        <div>
-            <a href=""> <img src="../assets/img/instagram.svg" alt=""> </a>
-            <a href=""> <img src="../assets/img/facebook.svg" alt=""> </a>
-            <a href=""> <img src="../assets/img/whatsapp.svg" alt=""> </a>
-        </div>
-    </footer>
+            <div>
+                <h4>Preguntas Frecuentes</h4>
+                <br>
+                <ul class="footer-1">
+                    <div>
+                        <li class="preguntas-footer"> <a href="">Métodos de pago</a> </li>
+                        <li class="preguntas-footer"> <a href="">Cambios</a> </li>
+                    </div>
+                    <div>
+                        <li class="preguntas-footer"> <a href="">Contacto</a> </li>
+                        <li class="preguntas-footer"> <a href="">Devoluciones</a> </li>
+                    </div>
+                    <div>
+                        <li class="preguntas-footer"> <a href="">Venta mayorista</a> </li>
+                        <li class="preguntas-footer"> <a href="">Tabla de talles</a> </li>
+                    </div>
+                    </ul>
+            </div>
+            <div>
+                <a href=""> <img src="../assets/img/instagram.svg" alt=""> </a>
+                <a href=""> <img src="../assets/img/facebook.svg" alt=""> </a>
+                <a href=""> <img src="../assets/img/whatsapp.svg" alt=""> </a>
+            </div>
+        </footer>
     </body>
 </html>

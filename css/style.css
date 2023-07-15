@@ -13,17 +13,18 @@
 /*BODY*/
 
 body{
+    background-color: #E3DAD5;
     font-family: 'Gayathri', sans-serif;
     font-weight: 400;
-    background-color: #E3DAD5;
 }
 
 /*H1*/
 
 .navbar section a h1 {
     font-family: 'Federo', sans-serif;
-    font-size: 3.125rem;
+    font-size: 2.5rem;
     text-decoration: none;
+    padding-left: 1.25rem;
 }
 
 /*NAVBAR*/
@@ -34,7 +35,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0rem 1.25rem;
+    width: 100%;
+    height: 3.125rem;
+    padding: 0% !important;
 }
 
 .navbar ul li{
@@ -42,38 +45,57 @@ body{
 }
 
 .navbar ul {
+    font-family: 'Gayathri', sans-serif;
     display: flex;
     flex-direction: row;
     gap: 2.1875rem;
     align-items: center;
     justify-content: center;
+    padding-right: 1.25rem;
+    margin: 0;
 }
 
 .navbar a {
     font-size: 1.25rem;
     text-decoration: none;
     color: black;
+    align-content: center;
+    justify-content: center;
 }
 
 .top-header{
+    font-family: 'Gayathri', sans-serif;
     background-color: #E8E8E8;
     text-align: center;
-    padding-top: .3125rem;
+    padding-top: .5rem;
+    padding-bottom: .3125rem;
+    margin: 0%;
+}
+
+.top-header p{
+    margin-bottom: 0%;
 }
 
 .sitio-actual{
     text-decoration: underline;
 }
 
+/*MAIN*/
+
+main{
+    font-family: 'Gayathri', sans-serif;
+}
+
 /*PORTADA FOTO*/
 
 .foto-portada{
-    background: url(../assets/img/foto-principal-completa.webp);
+    background-image: url(../assets/img/foto-principal-completa.webp);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
+    height: 37.5rem;
+    background-color: #E3DAD5;
 }
 
 .foto-portada img{
@@ -83,46 +105,53 @@ body{
 
 /*TRES FOTOS JUNTAS*/
 
-.tres-fotos{
+/* .tres-fotos{
     display: flex;
     align-content: center;
     justify-content: center;
     gap: 3.125rem;
     width: 100%;
+    height: 25rem;
     padding: 1.25rem;
 }
 
+*/ 
+
+.tres-fotos{
+    background-color: #E3DAD5;
+}
+
+.fotoback-tapados{
+    background-image: url(../assets/img/tapados-foto-completa.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 15rem;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.fotoback-jeans{
+    background-image: url(../assets/img/jeans-foto-completa.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 15rem;
+    border-radius: 5px;
+}
+
+.fotoback-sweaters{
+    background-image: url(../assets/img/sweaters-foto-completa.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 15rem;
+    border-radius: 5px 0px 0px 5px;
+}
+
 section div h2{
+    font-family: 'Gayathri', sans-serif;
     font-size: 2.1875rem;
     align-self: center;
+    color: white;
 }
 
-.fotoback-tapados {
-    grid-area: tapados;
-    background-image: url(../assets/img/tapados-foto-completa.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 13.75rem;
-}
-
-.fotoback-jeans {
-    grid-area: jeans;
-    background-image: url(../assets/img/jeans-foto-completa.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 15.625rem;
-}
-
-.fotoback-sweaters {
-    grid-area: sweaters;
-    background-image: url(../assets/img/sweaters-foto-completa.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 13.75rem;
-}
 
 /*CARROUSEL*/
 
@@ -130,16 +159,25 @@ section div h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     gap: 2.5rem;
     row-gap: 2.5rem;
+    background-color: #E3DAD5;
+    padding-top: 1.5625rem;
+    padding-bottom: 1.5625rem;
 }
 
 .carrousel-cards {
     border-radius: 5%;
 }
 
+.carrousel div figcaption{
+    font-family: 'Gayathri', sans-serif;
+}
+
 /*INFO COMPRA*/
 
+/*
 .info-compra {
     background-color: #E8E8E8;
     display: flex;
@@ -155,15 +193,22 @@ section div h2{
     align-items: center;
 }
 
-.info-compra p{
+*/
+
+.info-compra{
+    background-color: #E8E8E8 !important;
+}
+
+.info-compra div p{
     justify-content: center;
     text-align: center;
     font-size: 1.375rem;
-}
+} 
 
 /*FOOTER*/
 
 footer{
+    font-family: 'Gayathri', sans-serif;
     background-color: #E8E8E8;
     text-decoration: none;
     display: flex;
@@ -204,4 +249,35 @@ footer div ul{
 .main-nosotros{
     background-image: url("../assets/img/bodyimg-nosotros.jpg");
     background-repeat: no-repeat;
+}
+
+/*CONTACTO*/
+
+.body-contacto{
+    background-image: url("../assets/img/fondobody-contacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contacto-main{
+    width: 75rem;
+    height: 37.5rem;
+    margin-top: 9.375rem;
+    margin-bottom: 9.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #E3DAD5;
+    backdrop-filter: blur(10px);
+}
+
+.contacto-fieldset {
+    padding: 3.125rem;
+    background-color: #E3DAD5;
+    display: flex;
+    flex: wrap;
+    align-content: center;
+    justify-content: center;
 }
