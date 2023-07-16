@@ -474,3 +474,30 @@ footer div ul{
         flex-direction: column;
     }
 }
+
+@media screen and (min-width: 1440px){
+    .foto-portada{
+        width: 100%;
+        height: 31.25rem;
+    }
+    .fotoback-tapados{
+        padding: 10.3125rem;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .fotoback-jeans{
+        padding: 10.3125rem;
+        border-radius: 5px;
+    }
+    .fotoback-sweaters{
+        padding: 10.3125rem;
+        border-radius: 5px 0px 0px 5px;
+    }
+    .card-bufanda{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-jean{
+        display: flex;
+        flex-direction: column;
+    }
+}
