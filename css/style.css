@@ -201,6 +201,16 @@ main{
     font-size: 1.375rem;
 } 
 
+.icono-refresh{
+    width: 1.25rem;
+}
+.icono-tarjeta{
+    width: 1.25rem;
+}
+.icono-auto{
+    width: 1.25rem;
+}
+
 /*FOOTER*/
 
 footer{
@@ -281,7 +291,7 @@ footer div ul{
 
 
 
-/*MEDIA Q*/
+/*MEDIA Q - INDEX*/
 
 @media screen and (min-width: 320px){
     .navbar section a h1 {
@@ -338,6 +348,10 @@ footer div ul{
     }
     .card-campera{
         display: none;
+    }
+    .info-compra{
+        display: flex;
+        flex-direction: column;
     }
     footer{
         display: flex;
@@ -501,3 +515,6 @@ footer div ul{
         flex-direction: column;
     }
 }
+
+/*MEDIA Q - CONTACTO*/
+
