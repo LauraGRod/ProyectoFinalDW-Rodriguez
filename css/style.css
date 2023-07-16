@@ -270,10 +270,9 @@ footer div ul{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     border-radius: 10px;
     background-color: #E3DAD5;
-    backdrop-filter: blur(10px);
 }
 
 .contacto-fieldset {
@@ -281,6 +280,37 @@ footer div ul{
     background-color: #E3DAD5;
     display: flex;
     flex: wrap;
-    align-content: center;
     justify-content: center;
+    text-align: center;
+}
+
+
+
+/*MEDIA Q*/
+
+@media screen and (min-width: 320px){
+    .navbar ul{
+        display: none;
+        visibility: hidden;
+    }
+    .foto-portada{
+        height: 30%;
+    }
+}
+
+@media (min-width: 768px){
+
+}
+
+
+@media (min-width: 1024px){
+    .foto-portada{
+    background-image: url(../assets/img/foto-principal-completa.webp);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    background-color: #E3DAD5;
+}
 }
