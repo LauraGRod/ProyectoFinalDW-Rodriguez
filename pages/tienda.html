@@ -8,11 +8,59 @@
     </head>
     <body>
         <!-- Empieza el HEADER -->
+        <!-- Empieza el HEADER -->
         <header>
             <div class="top-header">
                 <p>ENVÍOS GRATIS A PARTIR DE 20000$</p>
             </div>
-            <nav class="navbar">
+
+            <!--OFFCANVAS NAVBAR EMPIEZA-->
+            <nav class="navbar fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">ATELIER</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <a href="../index.html"> <h5 class="offcanvas-title" id="offcanvasNavbarLabel">INICIO</h5> </a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/tienda.html">COLECCIÓN AW23</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/ubicacion.html">UBICACIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CARRITO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CUENTA</a>
+                        </li>
+                      </ul>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+            <!--NAVBAR1-->
+            <nav class="navbar1">
+                <div class="icono-menu">
+                    <img src="../assets/img/icon_menu.svg" alt="">
+                </div>
                 <section>
                     <a href="../index.html"> <h1>ATELIER</h1> </a>
                 </section>
