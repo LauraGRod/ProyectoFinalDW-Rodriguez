@@ -15,6 +15,9 @@
                 <p>ENVÍOS GRATIS A PARTIR DE 20000$</p>
             </div>
             <nav class="navbar">
+                <div class="icono-menu">
+                    <img src="../assets/img/icon_menu.svg" alt="">
+                </div>
                 <section>
                     <a href="../index.html"> <h1>ATELIER</h1> </a>
                 </section>
@@ -32,20 +35,23 @@
 
         <!--Empieza el MAIN-->
         <main class="contacto-main container">
-            <div class="d-inline-flex align-content-center flex-wrap gap-5 mx-5">
+            <div class="d-inline-flex align-content-center flex-wrap gap-5 mx-lg-5 mx-md-6">
                 <div>
                     <h2>¡Contactanos!</h2>
                 </div>
-                <div class="container">
-                    <fieldset class="d-flex gap-4 mx-4" class="contacto-fieldset">
-                        <form action="#" class="container row gap-2">
-                            <label class="col" for="nombre">Nombre</label> <input class="celda-nombre" type="text">
-                            <label class="col" for="apellido">Apellido</label> <input class="celda-apellido" type="text">
-                            <label class="col" for="email">Email</label> <input class="celda-email" type="email">
-                            <label class="col" for="num-pedido">Número de pedido</label> <input class="celda-pedido" type="text">
+                <div class="container justify-content-center align-items-center mx-5">
+                    <fieldset class="row d-flex gap-4" class="contacto-fieldset">
+                        <form action="#" class="col-md-6 col-lg-3 gap-2">
+                            <label for="nombre">Nombre</label> <input class="celda-nombre" type="text">
+                            <br>
+                            <label for="apellido">Apellido</label> <input class="celda-apellido" type="text">
+                            <br>
+                            <label for="email">Email</label> <input class="celda-email" type="email">
+                            <br>
+                            <label for="num-pedido">Número de pedido</label> <input class="celda-pedido" type="text">
                         </form> 
-                        <form action="#" class="container row gap-2">
-                            <label class="col" for="mensaje">Mensaje</label> <input class="celda-mensaje" type="text">
+                        <form action="#" class="col-md-6 col-lg-8 gap-2">
+                            <label for="mensaje">Mensaje</label> <textarea class="celda-mensaje" type="text"></textarea>
                         </form>
                     </fieldset>
                 </div>
