@@ -274,9 +274,38 @@ footer div ul{
 
 /*NOSOTROS*/
 
-.main-nosotros{
-    background-image: url("../assets/img/bodyimg-nosotros.jpg");
+.body-nosotros{
+    background-image: url("../assets/img/fondobody-nosotros.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque-nosotros{
+    width: 56.25rem;
+    height: 37.5rem;
+    margin-top: 9.375rem;
+    margin-bottom: 9.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #E3DAD5;
+    padding: 3.125rem;
+}
+
+.nosotros-crueltyfree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*CONTACTO*/
@@ -327,16 +356,81 @@ footer div ul{
     gap: .3125rem;
 }
 
+
+/*UBICACION*/
+
+.body-ubicacion{
+    background-image: url("../assets/img/fondoboy-ubicacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main-ubicacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bloque-ubicacion{
+    width: 56.25rem;
+    height: 56.25rem;
+    margin-top: 9.375rem;
+    margin-bottom: 9.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #E3DAD5;
+    padding: 3.125rem;
+}
+
 /*TIENDA*/
 
+.tienda-completa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1.875rem;
+    gap: 1.25rem;
+}
 .imgs-tienda{
     border-radius: 5%;
 }
 .filtros{
+    background-color: #E8E8E8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .625rem;
+}
+.filtros1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1.25rem;
+    gap: 1.25rem;
+    align-items: center;
+}
+.filtros1-b{
+    display: flex;
+    flex-direction: row;
+}
+.filtros2{
+    display: flex;
+    flex-direction: row;
+    padding-right: 1.375rem;
+}
+.tienda-nombreyprecios{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+.filtros-botones{
+    height: 1.75rem;
+}
+
+
 
 /*MEDIA Q - INDEX*/
 
