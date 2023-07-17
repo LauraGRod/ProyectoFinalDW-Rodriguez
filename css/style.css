@@ -271,11 +271,6 @@ footer div ul{
     gap: 3.125rem;
 }
 
-/*TIENDA*/
-
-.imgs-tienda{
-    border-radius: 5%;
-}
 
 /*NOSOTROS*/
 
@@ -330,6 +325,17 @@ footer div ul{
     display: flex;
     flex-direction: column;
     gap: .3125rem;
+}
+
+/*TIENDA*/
+
+.imgs-tienda{
+    border-radius: 5%;
+}
+.filtros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*MEDIA Q - INDEX*/
@@ -421,6 +427,15 @@ footer div ul{
         justify-content: space-between;
         gap: .3125rem;
     }
+    .icono-refresh{
+        width: 3.5rem;
+    }
+    .icono-tarjeta{
+        width: 3.5rem;
+    }
+    .icono-auto{
+        width: 3.5rem;
+    }
     /*MEDIA Q - CONTACTO*/
     .bloque-contacto{
     width: 18.75rem;
@@ -506,6 +521,15 @@ footer div ul{
         justify-content: space-between;
         gap: 1.5625rem;
     }
+    .icono-refresh{
+        width: 4.75rem;
+    }
+    .icono-tarjeta{
+        width: 4.75rem;
+    }
+    .icono-auto{
+        width: 4.75rem;
+    }
     /*MEDIA Q - CONTACTO*/
     .bloque-contacto{
     width: 37.5rem;
@@ -579,6 +603,15 @@ footer div ul{
     .card-campera{
         display: flex;
         flex-direction: column;
+    }
+    .icono-refresh{
+        width: 5.375rem;
+    }
+    .icono-tarjeta{
+        width: 5.375rem;
+    }
+    .icono-auto{
+        width: 5.375rem;
     }
     /*MEDIA Q - CONTACTO*/
     .bloque-contacto{
