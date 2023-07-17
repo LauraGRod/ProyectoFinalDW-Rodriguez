@@ -356,6 +356,11 @@ footer div ul{
     gap: .3125rem;
 }
 
+.celda-mensaje{
+    width: 17.625rem;
+    height: 18rem;
+}
+
 
 /*UBICACION*/
 
@@ -533,17 +538,25 @@ footer div ul{
     /*MEDIA Q - CONTACTO*/
     .bloque-contacto{
     width: 18.75rem;
-    height: 43.75rem;
+    height: 50rem;
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
+    gap: .625rem;
     }
     .contacto-fieldset {
-    font-size: 1.1875rem;
-    padding: 20px;
+    width: 17.5rem;
+    font-size: 1.125rem;
+    padding: 0px;
     background-color: #E3DAD5;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 1.875rem;
+    }
+    .celda-mensaje{
+        width: 14rem;
+        height: 15.625rem;
     }
 }
 
@@ -627,17 +640,23 @@ footer div ul{
     /*MEDIA Q - CONTACTO*/
     .bloque-contacto{
     width: 37.5rem;
-    height: 43.75rem;
+    height: 50rem;
     margin-top: 4.375rem;
     margin-bottom: 4.375rem;
     }
     .contacto-fieldset {
     font-size: 1.1875rem;
-    padding: 20px;
     background-color: #E3DAD5;
     display: flex;
     flex-direction: column;
     gap: 1.875rem;
+    }
+    .celda-mensaje{
+        width: 22.5rem;
+        height: 18rem;
+    }
+    .celdas1{
+        width: 22.5rem;
     }
 }
 
@@ -721,6 +740,13 @@ footer div ul{
     display: flex;
     flex-direction: row;
     gap: 1.875rem;
+    }
+    .celda-mensaje{
+        width: 21.25rem;
+        height: 18rem;
+    }
+    .celdas1{
+        width: 21.25rem;
     }
 }
 
