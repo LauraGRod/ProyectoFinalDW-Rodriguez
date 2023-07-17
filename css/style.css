@@ -200,24 +200,6 @@ main{
 
 /*INFO COMPRA*/
 
-/*
-.info-compra {
-    background-color: #E8E8E8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15.625rem;
-    margin: 1.25rem 0rem;
-    padding: 1.5625rem 0rem;
-}
-
-.info-compra div{
-    justify-content: center;
-    align-items: center;
-}
-
-*/
-
 .info-compra{
     background-color: #E8E8E8;
 }
@@ -247,6 +229,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 3.125rem;
+    margin-top: .625rem;
 }
 
 .preguntas-footer{
