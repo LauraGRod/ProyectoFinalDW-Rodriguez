@@ -216,6 +216,9 @@ main {
   justify-content: center;
   align-items: center; }
 
+.bloque-contacto {
+  padding: 0; }
+
 .contacto-fieldset {
   display: flex;
   flex-direction: none;
