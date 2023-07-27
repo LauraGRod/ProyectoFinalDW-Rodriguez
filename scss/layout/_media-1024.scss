@@ -16,7 +16,7 @@
         }
     }
     .tres-fotos{
-        @include flex(row,wrap,center,center);
+        @include flex(row,nowrap,center,center);
         text-align: center;
     }
     .fotoback-tapados{
@@ -66,6 +66,8 @@
         height: 62.5rem;
         margin-top: 5rem;
         margin-bottom: 5rem;
+        display: flex;
+        flex-wrap: nowrap;
     }
         .contacto-fieldset {
         font-size: 1.4375rem;

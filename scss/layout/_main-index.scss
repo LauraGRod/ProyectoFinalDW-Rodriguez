@@ -43,21 +43,18 @@ main{
     background-size: cover;
     padding: 15rem;
     border-radius: 0px 5px 5px 0px;
-    width: 30%;
 }
 
 .fotoback-jeans{
     @extend .fotoback-tapados;
     background-image: url(../assets/img/jeans-foto-completa.webp);
     border-radius: 5px;
-    width: 30%;
 }
 
 .fotoback-sweaters{
     @extend .fotoback-tapados;
     background-image: url(../assets/img/sweaters-foto-completa.webp);
     border-radius: 5px 0px 0px 5px;
-    width: 30%;
 }
 
 /*CARROUSEL*/
