@@ -1,0 +1,8 @@
+.main-ubicacion{
+    @include flex(none,wrap,center,center);
+}
+
+.bloque-ubicacion{
+    @extend .bloque-nosotros;
+    height: 56.25rem;
+}

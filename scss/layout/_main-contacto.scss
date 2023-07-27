@@ -1,0 +1,29 @@
+.contacto-main{
+    @include flex(row,wrap,center,center);
+}
+
+.bloque-contacto{
+    @extend .bloque-nosotros;
+}
+
+.contacto-fieldset{
+    @include flex(none,wrap,none,none);
+    background-color: $color-principal;
+    font-size: 1.4375rem;
+    padding: 3.125rem;
+    gap: 1.875rem;
+}
+
+.form1{
+    @include flex(column,wrap,none,none);
+    gap: .3125rem;
+}
+
+.form2{
+    @extend .form1;
+}
+
+.celda-mensaje{
+    width: 17.625rem;
+    height: 18rem;
+}
