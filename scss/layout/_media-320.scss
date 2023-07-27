@@ -100,10 +100,12 @@
         margin-top: 3.125rem;
         margin-bottom: 3.125rem;
         gap: .625rem;
+        justify-content: center;
+        align-items: center;
     }
     .contacto-fieldset {
         @include flex(column,wrap,center,center);
-        width: 17.5rem;
+        width: auto;
         font-size: 1.125rem;
         padding: 0px;
         background-color: $color-principal;

@@ -412,14 +412,16 @@ footer {
     height: 50rem;
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
-    gap: .625rem; }
+    gap: .625rem;
+    justify-content: center;
+    align-items: center; }
   .contacto-fieldset {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 17.5rem;
+    width: auto;
     font-size: 1.125rem;
     padding: 0px;
     background-color: #E3DAD5;
@@ -564,10 +566,10 @@ footer {
     flex-direction: row;
     gap: 1.875rem; }
   .celda-mensaje {
-    width: 21.25rem;
+    width: auto;
     height: 18rem; }
   .celdas1 {
-    width: 21.25rem; } }
+    width: auto; } }
 
 @media screen and (min-width: 1440px) {
   .foto-portada {
@@ -599,13 +601,12 @@ footer {
     width: 75rem;
     height: 62.5rem;
     margin-top: 5rem;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-wrap: nowrap; }
+    margin-bottom: 5rem; }
   .contacto-fieldset {
     font-size: 1.4375rem;
     padding: 3.125rem;
     background-color: #E3DAD5;
     display: flex;
     flex-direction: row;
-    gap: 1.875rem; } }
+    gap: 1.875rem;
+    width: auto; } }

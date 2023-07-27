@@ -69,7 +69,7 @@
         display: flex;
         flex-wrap: nowrap;
     }
-        .contacto-fieldset {
+    .contacto-fieldset {
         font-size: 1.4375rem;
         padding: 3.125rem;
         background-color: $color-principal;
@@ -77,11 +77,11 @@
         flex-direction: row;
         gap: 1.875rem;
     }
-        .celda-mensaje{
-            width: 21.25rem;
-            height: 18rem;
+    .celda-mensaje{
+        width: auto;
+        height: 18rem;
     }
-        .celdas1{
-            width: 21.25rem;
+    .celdas1{
+        width: auto;
     }
 }
