@@ -88,4 +88,41 @@
         background-color: $color-principal;
         gap: 1.875rem;
     }
+    .filtros{
+        margin-top: 1.875rem;
+        width: 100%;
+    }
+    .boton-filtros-solo{
+        display: flex;
+        height: 1.75rem;
+    }
+    .filtros1-a{
+        display: flex;
+        flex-direction: row;
+    }
+    .filtros1-b{
+        display: none;
+    }
+    .bloque-nosotros{
+        width: 37.5rem;
+        height: 50rem;
+        margin-top: 4.375rem;
+        margin-bottom: 4.375rem;
+    }
+    .bloque-ubicacion{
+        width: 40.625rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .contenido-ubicaicon{
+        display: flex;
+        flex-direction: column;
+    }
+    .ubicacion-mapa-grande{
+        display: flex;
+    }
+    .ubicacion-mapa-chico{
+        display: none;
+    }
 }

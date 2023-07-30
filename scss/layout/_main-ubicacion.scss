@@ -4,5 +4,10 @@
 
 .bloque-ubicacion{
     @extend .bloque-nosotros;
-    height: 56.25rem;
+    height: 900px;
+}
+
+.contenido-ubicacion{
+    @include flex(row,wrap,center,center);
+    gap: 20px;
 }

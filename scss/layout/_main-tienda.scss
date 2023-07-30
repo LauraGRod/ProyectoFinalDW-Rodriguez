@@ -2,6 +2,7 @@
     @include flex(row,wrap,space-between,center);
     background-color: $color-secundario;
     padding: .625rem;
+    width: 100%;
     .filtros1{
         @include flex(row,wrap,none,center);
         padding-left: 1.25rem;

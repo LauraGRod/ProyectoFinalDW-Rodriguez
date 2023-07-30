@@ -84,4 +84,30 @@
     .celdas1{
         width: auto;
     }
+    .filtros{
+        margin-top: 0;
+    }
+    .boton-filtros-solo{
+        display: none;
+    }
+    .filtros1-b{
+        display: flex;
+    }
+    .bloque-nosotros{
+        width: 56.25rem;
+        height: 37.5rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .bloque-ubicacion{
+        height: 43.75rem;
+    }
+    .ubicacion-mapa-grande{
+        display: flex;
+    }
+    .ubicacion-mapa-chico{
+        display: none;
+    }
 }

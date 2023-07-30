@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px){
+@media screen and (min-width: 20rem){
     .navbar1{
         display: none;
         section{
@@ -10,7 +10,7 @@
                 justify-content: center;
                 align-items: center;
                 h1{
-                    font-size: 1.875rem;
+                    font-size: 30px;
                 }
             }
         }
@@ -20,27 +20,27 @@
     }
     .foto-portada{
         width: 100%;
-        height: 13.75rem;
+        height: 220px;
     }
     .tres-fotos{
         display: flex;
         flex-direction: column;
-        gap: .1875rem;
-        padding-top: .375rem;
+        gap: 3px;
+        padding-top: 6px;
     }
     .fotoback-tapados{
         width: 100%;
-        padding: .625rem;
+        padding: 10px;
         border-radius: 0;
     }
     .fotoback-jeans{
         width: 100%;
-        padding: .625rem;
+        padding: 10px;
         border-radius: 0;
     }
     .fotoback-sweaters{
         width: 100%;
-        padding: .625rem;
+        padding: 10px;
         border-radius: 0;
     }
     section{
@@ -53,8 +53,8 @@
         }
     }
     .carrousel{
-        padding-top: .625rem;
-        padding-bottom: .625rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .flecha-izq{
         display: none;
@@ -83,36 +83,71 @@
     }
     .footer-1{
         @include flex(row,wrap,space-between,none);
-        gap: .3125rem;
+        gap: 5px;
     }
     .icono-refresh{
-        width: 3.5rem;
+        width: 56px;
     }
     .icono-tarjeta{
-        width: 3.5rem;
+        width: 56px;
     }
     .icono-auto{
-        width: 3.5rem;
+        width: 56px;
     }
     .bloque-contacto{
         width: 18.75rem;
-        height: 50rem;
-        margin-top: 3.125rem;
-        margin-bottom: 3.125rem;
-        gap: .625rem;
+        height: 25rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 10px;
         justify-content: center;
         align-items: center;
     }
     .contacto-fieldset {
         @include flex(column,wrap,center,center);
         width: auto;
-        font-size: 1.125rem;
-        padding: 0px;
+        font-size: 18px;
+        padding: 0rem;
         background-color: $color-principal;
-        gap: 1.875rem;
+        gap: 30px;
     }
     .celda-mensaje{
-        width: 14rem;
-        height: 15.625rem;
+        width: 224px;
+        height: 250px;
+    }
+    .filtros{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .boton-filtros-solo{
+        display: flex;
+        height: 28px;
+    }
+    .filtros1-a{
+        display: flex;
+        flex-direction: row;
+    }
+    .filtros1-b{
+        display: none;
+    }
+    .bloque-nosotros{
+        width: 300px;
+        height: 1300px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .bloque-ubicacion{
+        width: 280px;
+        height: 800px;
+        padding: 10px;
+    }
+    .ubicacion-mapa-grande{
+        display: none;
+    }
+    .ubicacion-mapa-chico{
+        display: flex;
     }
 }
