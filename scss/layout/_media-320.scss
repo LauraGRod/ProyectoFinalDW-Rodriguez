@@ -94,23 +94,6 @@
     .icono-auto{
         width: 56px;
     }
-    .bloque-contacto{
-        width: 18.75rem;
-        height: 25rem;
-        margin-top: 3.125rem;
-        margin-bottom: 3.125rem;
-        gap: .625rem;
-        justify-content: center;
-        align-items: center;
-    }
-    .contacto-fieldset {
-        @include flex(column,wrap,center,center);
-        width: auto;
-        font-size: 18px;
-        padding: 0rem;
-        background-color: $color-principal;
-        gap: 30px;
-    }
     .celda-mensaje{
         width: 224px;
         height: 250px;
@@ -144,9 +127,26 @@
         align-items: center;
     }
     .bloque-ubicacion{
-        width: 280px;
-        height: 800px;
+        width: 17.5rem;
+        height: 50rem;
         padding: 10px;
+    }
+    .bloque-contacto{
+        width: 18.75rem;
+        height: 50rem;
+        margin-top: 3.125rem;
+        margin-bottom: 3.125rem;
+        gap: .625rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacto-fieldset {
+        @include flex(column,wrap,center,center);
+        width: auto;
+        font-size: 18px;
+        padding: 0rem;
+        background-color: $color-principal;
+        gap: 30px;
     }
     .ubicacion-mapa-grande{
         display: none;

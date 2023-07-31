@@ -90,9 +90,13 @@
     .boton-filtros-solo{
         display: none;
     }
-    .filtros1-b{
-        display: flex;
-        flex-direction: row;
+    .filtros {
+        .filtros1{
+            .filtros1-b{
+                display: flex;
+                flex-direction: row;
+            }
+        }
     }
     .bloque-nosotros{
         width: 56.25rem;
