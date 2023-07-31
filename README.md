@@ -6,4 +6,5 @@ Este es un proyecto sobre un sitio para una tienda de ropa ficticia, "Atelier". 
 ## Lenguajes Utilizados
 -HTML
 -CSS
+-SASS
 -Frameworks: Bootstrap
