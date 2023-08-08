@@ -4,6 +4,7 @@
 
 .bloque-contacto{
     @extend .bloque-nosotros;
+    @include efecto-glass;
     padding: 0;
 }
 
@@ -13,6 +14,7 @@
     font-size: 1.4375rem;
     padding: 3.125rem;
     gap: 1.875rem;
+    border-radius: 10px;
 }
 
 .form1{

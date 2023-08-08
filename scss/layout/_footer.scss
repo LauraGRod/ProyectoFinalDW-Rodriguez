@@ -27,3 +27,9 @@ footer{
     @include flex(row,wrap,none,none);
     gap: 3.125rem;
 }
+
+.footer-iconos{
+    a{
+        appearance: none;
+    }
+}

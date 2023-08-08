@@ -34,13 +34,14 @@
     margin-bottom: 5rem;
     }
     .contacto-fieldset {
+    width: auto;
+    height: auto;
     font-size: 1.4375rem;
     padding: 3.125rem;
     background-color: $color-principal;
     display: flex;
     flex-direction: row;
     gap: 1.875rem;
-    width: auto;
     }
     .filtros1-b{
         display: flex;

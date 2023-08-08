@@ -1,3 +1,4 @@
+
 .filtros{
     @include flex(row,wrap,space-between,center);
     background-color: $color-secundario;
@@ -9,6 +10,11 @@
         gap: 1.25rem;
         .filtros1-b{
             @include flex(row,wrap,none,none);
+            gap: .625rem;
+        }
+        h2{
+            padding-top: .625rem;
+            margin: 0;
         }
     }
     .filtros2{
@@ -17,8 +23,8 @@
     }
 }
 
-.filtros-botones{
-    height: 1.75rem;
+.select-filtros{
+    width: 6.25rem;
 }
 
 .tienda-completa{

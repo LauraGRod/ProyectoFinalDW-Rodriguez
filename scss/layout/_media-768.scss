@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px){
+    main{
+        margin-top: 4.125rem;
+    }
     .foto-portada{
         width: 100%;
         height: 18.75rem;
@@ -82,6 +85,8 @@
         margin-bottom: 4.375rem;
     }
     .contacto-fieldset {
+        width: 25rem;
+        height: 40rem;
         display: flex;
         flex-direction: column;
         font-size: 1.1875rem;
@@ -91,17 +96,22 @@
     .filtros{
         margin-top: 1.875rem;
         width: 100%;
-    }
-    .boton-filtros-solo{
-        display: flex;
-        height: 1.75rem;
+        .filtros1{
+            h2{
+                display: none;
+            }
+        }
     }
     .filtros1-a{
         display: flex;
         flex-direction: row;
     }
-    .filtros1-b{
-        display: none;
+    .filtros{
+        .filtros1{
+            .filtros1-b{
+                display: none;
+            }
+        }
     }
     .bloque-nosotros{
         width: 37.5rem;

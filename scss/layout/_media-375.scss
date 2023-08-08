@@ -131,6 +131,10 @@
         width: 17.5rem;
         height: 50rem;
         padding: 10px;
+        .ubicacion-titulo{
+            justify-content: center;
+            align-items: center;
+        }
     }
     .bloque-contacto{
         width: 18.75rem;
@@ -144,9 +148,8 @@
     .contacto-fieldset {
         @include flex(column,wrap,center,center);
         width: 15.625rem;
-        height: 37.5rem;
         font-size: 18px;
-        padding: 0;
+        padding: 0rem;
         background-color: $color-principal;
         gap: 30px;
     }

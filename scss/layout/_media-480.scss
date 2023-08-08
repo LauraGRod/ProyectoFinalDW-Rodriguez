@@ -16,31 +16,35 @@
         }
     }
     .tres-fotos{
-        @include flex(row,nowrap,center,center);
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        padding-top: 6px;
     }
     .fotoback-tapados{
-        padding: 6.6875rem;
-        border-radius: 0 5px 5px 0;
+        width: 100%;
+        padding: 10px;
+        border-radius: 0;
     }
     .fotoback-jeans{
-        display: none;
+        width: 100%;
+        padding: 10px;
+        border-radius: 0;
     }
     .fotoback-sweaters{
-        padding: 6.6875rem;
-        border-radius: 5px 0 0 5px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 0;
     }
     .carrousel{
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-        gap: .3125rem;
-        row-gap: .125rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .flecha-izq{
-        visibility: visible;
+        display: none;
     }
     .flecha-der{
-        visibility: visible;
+        display: none;
     }
     .card-bufanda{
         display: none;
@@ -49,12 +53,10 @@
         display: none;
     }
     .card-botas{
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
     .card-campera{
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
     footer{
         @include flex(row,wrap,space-between,center);
@@ -77,11 +79,13 @@
     }
     .bloque-contacto{
         width: 37.5rem;
-        height: 50rem;
+        height: 46.875rem;
         margin-top: 4.375rem;
         margin-bottom: 4.375rem;
     }
     .contacto-fieldset {
+        width: 18.75rem;
+        height: 43.75rem;
         display: flex;
         flex-direction: column;
         font-size: 1.1875rem;
@@ -91,17 +95,22 @@
     .filtros{
         margin-top: 1.875rem;
         width: 100%;
-    }
-    .boton-filtros-solo{
-        display: flex;
-        height: 1.75rem;
+        .filtros1{
+            h2{
+                display: none;
+            }
+        }
     }
     .filtros1-a{
         display: flex;
         flex-direction: row;
     }
-    .filtros1-b{
-        display: none;
+    .filtros{
+        .filtros1{
+            .filtros1-b{
+                display: none;
+            }
+        }
     }
     .bloque-nosotros{
         display: flex;

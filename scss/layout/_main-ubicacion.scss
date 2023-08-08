@@ -5,6 +5,11 @@
 .bloque-ubicacion{
     @extend .bloque-nosotros;
     height: 900px;
+    .ubicacion-titulo{
+        h2{
+            font-weight: 500;
+        }
+    }
 }
 
 .contenido-ubicacion{
