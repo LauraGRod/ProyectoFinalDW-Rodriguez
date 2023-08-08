@@ -258,7 +258,11 @@ main {
   align-items: none;
   gap: .3125rem; }
 
+.form1 .celdas1, .form2 .celdas1 {
+  border: .0625rem; }
+
 .celda-mensaje {
+  border: .0625rem;
   width: 17.625rem;
   height: 18rem; }
 

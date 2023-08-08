@@ -26,7 +26,14 @@
     @extend .form1;
 }
 
+.form1{
+    .celdas1{
+        border: .0625rem;
+    }
+}
+
 .celda-mensaje{
+    border: .0625rem;
     width: 17.625rem;
     height: 18rem;
 }
