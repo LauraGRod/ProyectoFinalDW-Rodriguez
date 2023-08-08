@@ -262,6 +262,17 @@ main {
   width: 17.625rem;
   height: 18rem; }
 
+.boton-enviar input {
+  width: 4.0625rem;
+  height: 2.1875rem;
+  border: 0;
+  border-radius: .3125rem;
+  background-color: whitesmoke;
+  padding-top: .3125rem;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); }
+
 .main-ubicacion {
   display: flex;
   flex-direction: none;
@@ -317,9 +328,6 @@ main {
     align-items: none;
     padding-right: 1.375rem; }
 
-.select-filtros {
-  width: 6.25rem; }
-
 .tienda-completa {
   display: flex;
   flex-direction: none;
@@ -338,6 +346,24 @@ main {
 
 .imgs-tienda {
   border-radius: 5%; }
+
+.select-filtros {
+  width: 6.25rem;
+  border-radius: .3125rem;
+  background-color: whitesmoke;
+  border: 0;
+  padding-top: .3125rem;
+  align-items: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); }
+
+.select-ordenar {
+  width: 7.5rem;
+  border-radius: .3125rem;
+  background-color: whitesmoke;
+  border: 0;
+  padding-top: .3125rem;
+  align-items: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); }
 
 footer {
   display: flex;

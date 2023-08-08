@@ -23,10 +23,6 @@
     }
 }
 
-.select-filtros{
-    width: 6.25rem;
-}
-
 .tienda-completa{
     @include flex(none,wrap,center,center);
     padding: 1.875rem;
@@ -39,4 +35,24 @@
 
 .imgs-tienda{
     border-radius: 5%;
+}
+
+.select-filtros{
+    width: 6.25rem;
+    border-radius: .3125rem;
+    background-color: whitesmoke;
+    border: 0;
+    padding-top: .3125rem;
+    align-items: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.select-ordenar{
+    width: 7.5rem;
+    border-radius: .3125rem;
+    background-color: whitesmoke;
+    border: 0;
+    padding-top: .3125rem;
+    align-items: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
