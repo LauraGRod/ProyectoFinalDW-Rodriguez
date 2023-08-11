@@ -8,7 +8,7 @@ main{
 /* FOTO PORTADA */
 
 .foto-portada{
-    background-image: url(../assets/img/foto-principal-completa.webp);
+    background-image: url(../assets/img/foto-principal-completa.jpg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ main{
 }
 
 .fotoback-tapados{
-    background-image: url(../assets/img/tapados-foto-completa.webp);
+    background-image: url(../assets/img/tapados-foto-completa.jpg);
     background-position: center;
     background-size: cover;
     padding: 15rem;
@@ -48,13 +48,13 @@ main{
 
 .fotoback-jeans{
     @extend .fotoback-tapados;
-    background-image: url(../assets/img/jeans-foto-completa.webp);
+    background-image: url(../assets/img/jeans-foto-completa.jpg);
     border-radius: 5px;
 }
 
 .fotoback-sweaters{
     @extend .fotoback-tapados;
-    background-image: url(../assets/img/sweaters-foto-completa.webp);
+    background-image: url(../assets/img/sweaters-foto-completa.jpg);
     border-radius: 5px 0px 0px 5px;
 }
 
