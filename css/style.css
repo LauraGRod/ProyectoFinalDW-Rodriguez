@@ -424,7 +424,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 3px;
-    padding-top: 6px; }
+    padding-top: 6px;
+    width: 100%; }
   .fotoback-tapados, .fotoback-jeans, .fotoback-sweaters {
     width: 100%;
     padding: 10px;
@@ -500,7 +501,7 @@ footer {
     justify-content: center;
     align-items: center; }
   .celdas1 {
-    width: auto; }
+    width: 100%; }
   .bloque-ubicacion {
     width: 17.5rem;
     height: 50rem;
@@ -552,7 +553,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 3px;
-    padding-top: 6px; }
+    padding-top: 6px;
+    width: 100%; }
   .fotoback-tapados, .fotoback-jeans, .fotoback-sweaters {
     width: 100%;
     padding: 10px;
@@ -610,7 +612,7 @@ footer {
     width: 14rem;
     height: 15.625rem; }
   .celdas1 {
-    width: auto; }
+    width: 100%; }
   .filtros {
     margin-top: 30px;
     width: 100%; }
@@ -682,7 +684,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 3px;
-    padding-top: 6px; }
+    padding-top: 6px;
+    width: 100%; }
   .fotoback-tapados, .fotoback-jeans, .fotoback-sweaters {
     width: 100%;
     padding: 10px;
@@ -740,7 +743,7 @@ footer {
     width: 14rem;
     height: 15.625rem; }
   .celdas1 {
-    width: auto; }
+    width: 100%; }
   .filtros {
     margin-top: 30px;
     width: 100%; }
