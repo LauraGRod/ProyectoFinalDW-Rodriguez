@@ -4,13 +4,13 @@
 
 Este es un proyecto sobre un sitio para una tienda de ropa ficticia, "Atelier". Contiene 5 páginas web responsive navegables entre sí.
 
-Profesor: Maximiliano Cardenas
-Tutor adjunto: Damian Laterza
-Tutores regulares:  Joaquín De La Parra, Yeison Rodriguez
-Alumna: Laura Rodríguez
+- Profesor: Maximiliano Cardenas
+- Tutor adjunto: Damian Laterza
+- Tutores regulares:  Joaquín De La Parra, Yeison Rodriguez
+- Alumna: Laura Rodríguez
 
 ## Lenguajes Utilizados
--HTML
--CSS
--SASS
--Frameworks: Bootstrap
+- HTML
+- CSS
+- SASS
+- Frameworks: Bootstrap
