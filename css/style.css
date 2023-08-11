@@ -400,6 +400,7 @@ footer {
   gap: 3.125rem; }
 
 .footer-iconos a {
+  text-decoration: none;
   appearance: none; }
 
 @media screen and (min-width: 320px) {
