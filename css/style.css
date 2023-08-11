@@ -499,6 +499,8 @@ footer {
     gap: 10px;
     justify-content: center;
     align-items: center; }
+  .celdas1 {
+    width: auto; }
   .bloque-ubicacion {
     width: 17.5rem;
     height: 50rem;
@@ -605,8 +607,10 @@ footer {
   .icono-auto {
     width: 56px; }
   .celda-mensaje {
-    width: 224px;
-    height: 250px; }
+    width: 14rem;
+    height: 15.625rem; }
+  .celdas1 {
+    width: auto; }
   .filtros {
     margin-top: 30px;
     width: 100%; }
@@ -733,8 +737,10 @@ footer {
   .icono-auto {
     width: 56px; }
   .celda-mensaje {
-    width: 224px;
-    height: 250px; }
+    width: 14rem;
+    height: 15.625rem; }
+  .celdas1 {
+    width: auto; }
   .filtros {
     margin-top: 30px;
     width: 100%; }
