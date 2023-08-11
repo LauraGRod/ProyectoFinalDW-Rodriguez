@@ -500,8 +500,11 @@ footer {
     gap: 10px;
     justify-content: center;
     align-items: center; }
+  .celda-mensaje {
+    width: 14rem;
+    height: 15.625rem; }
   .celdas1 {
-    width: 100%; }
+    width: 14rem; }
   .bloque-ubicacion {
     width: 17.5rem;
     height: 50rem;
@@ -612,7 +615,7 @@ footer {
     width: 14rem;
     height: 15.625rem; }
   .celdas1 {
-    width: 100%; }
+    width: 14rem; }
   .filtros {
     margin-top: 30px;
     width: 100%; }
@@ -743,7 +746,7 @@ footer {
     width: 14rem;
     height: 15.625rem; }
   .celdas1 {
-    width: 100%; }
+    width: 14rem; }
   .filtros {
     margin-top: 30px;
     width: 100%; }
