@@ -401,7 +401,8 @@ footer {
 
 .footer-iconos a {
   text-decoration: none;
-  appearance: none; }
+  appearance: none;
+  color: transparent; }
 
 @media screen and (min-width: 320px) {
   main {
