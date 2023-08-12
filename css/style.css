@@ -89,10 +89,7 @@ header {
 
 .navbar1-hover a {
   color: black;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  position: relative; }
+  text-decoration: none; }
   .navbar1-hover a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
