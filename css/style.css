@@ -91,7 +91,6 @@ header {
   color: black;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.15em;
   display: inline-block;
   position: relative; }
   .navbar1-hover a:after {
